@@ -304,7 +304,8 @@ body {
 .star-img4,
 .star-img5,
 .star-img6,
-.star-img7 {
+.star-img7,
+.star-img8 {
   margin: 0 5px;
   position: relative;
   top: 16px;
@@ -350,6 +351,12 @@ body {
   display: flex;
   justify-content: center;
   padding: 1em 0 5em;
+}
+
+.porfolio-link,
+.porfolio-link:hover {
+  text-decoration: none;
+  color: var(--light-grey);
 }
 
 .porfolio-container {
