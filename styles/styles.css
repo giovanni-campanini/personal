@@ -362,9 +362,11 @@ body {
 .porfolio-container {
   background-color: var(--dark-high);
   padding: 2em;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   height: 27em;
-  width: 40em;
+  width: 50vw;
   border-radius: 25px;
 }
 
@@ -382,7 +384,6 @@ body {
   margin: 1.5em 2.5em;
   overflow: hidden;
   height: 15em;
-  width: 30em;
   display: flex;
   justify-content: center;
   border-radius: 10px;
@@ -468,14 +469,14 @@ body {
   }
   .porfolio-container {
     height: 30em;
-    width: 80%;
+    width: 80vw;
     padding: 1.5em 2em;
   }
   .porfolio-description {
     font-size: 1.1em;
   }
   .porfolio-img-container {
-    width: 90%;
+    width: 60vw;
     margin: 1.5em auto;
   }
   .glide__arrow {
